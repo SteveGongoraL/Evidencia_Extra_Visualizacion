@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>398</width>
+    <height>218</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Graficas Matplotlib</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Ejemplos/TheFlash.png</normaloff>Ejemplos/TheFlash.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(6, 44, 67);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="Titulo_2">
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;Segoe Print&quot;;
+font: italic 8pt &quot;Lucida Fax&quot;;
+color: rgb(9, 164, 221);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#09a4dd;&quot;&gt;TOP 5 PELICULAS MAS TAQUILLERAS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLabel" name="Titulo">
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;Segoe Print&quot;;
+font: italic 8pt &quot;Lucida Fax&quot;;
+color: rgb(9, 164, 221);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#09a4dd;&quot;&gt;Seleccione un tipo de grafico&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="Boton_Seleccionar">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(137, 179, 192);
+</string>
+     </property>
+     <property name="text">
+      <string>Seleccionar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="Boton_Guardar">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(137, 179, 192);</string>
+     </property>
+     <property name="text">
+      <string>Guardar CSV</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QComboBox" name="Opcion_Graficos">
+     <property name="styleSheet">
+      <string notr="true">font: 11pt &quot;Microsoft New Tai Lue&quot;;
+background-color: rgb(255, 255, 255);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Grafica Barras Horizontal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Grafica Barras Vertical</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Grafica Lineas</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Grafica Pastel</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mostrar Datos</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QLabel" name="label_Comentario">
+     <property name="cursor">
+      <cursorShape>CrossCursor</cursorShape>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Microsoft New Tai Lue&quot;;
+alternate-background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
